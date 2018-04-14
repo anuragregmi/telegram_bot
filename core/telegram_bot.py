@@ -4,7 +4,7 @@ from config import config
 from telepot.loop import MessageLoop
 from .message import Message
 
-class TerminalBot:
+class TelegramBot:
     def __init__(self, bot):
         self.bot = bot
 

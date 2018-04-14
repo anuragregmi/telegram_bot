@@ -1,1 +1,1 @@
-from .terminal_bot import TerminalBot
+from .telegram_bot import TelegramBot

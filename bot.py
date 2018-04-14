@@ -1,6 +1,8 @@
 from config import config
 from telepot import Bot
-from core import TerminalBot
+from core import TelegramBot
 
-bot  = TerminalBot(Bot(config.TOKEN))
-bot.run_bot()
+bot  = TelegramBot(Bot(config.TOKEN))
+
+if __name__ == '__main__':
+    bot.run_bot()
