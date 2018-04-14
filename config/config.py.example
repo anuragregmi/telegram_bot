@@ -1,0 +1,26 @@
+# Token of your bot.
+# You can create a bot by chatting with BotFather.
+# After you create a bot bot father will give you a token. Use that token here.
+TOKEN = "<your token>"
+
+# username of the bot
+USERNAME = "<username>"
+
+# List of known users.
+# Currently users are separated into two groups known and unknown
+KNOWN_USERS = ["<username1>", "<username2>", "<username3>"]
+
+# Replies mapping
+# Bot search for these keys in the message text and then replies accordingly
+# These replied will only be send to known users.
+# Bot can be called by mentioning the bot in chat by using @username
+# @username mentioned above is username of the bot.
+REPLIES = {
+    "how are you": "I am fine?",
+    "hello": "Hi"
+}
+
+# Reply sent to unknown user
+# When an unknown user sends message to the bot in group chat mentioning the
+# @username  of bot, this message will be sent as reply.
+UNKNOWN_USER_REPLY = "I don't know you."
