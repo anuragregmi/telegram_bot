@@ -23,10 +23,10 @@ A simple Telegram Bot
 
   # Then run telegram Bot
   t_bot.run_bot()
-
-  Advanced:
-
-  Override `handle_group_message` to handle group message your way and
-  `handle_private_message` to handle private message your way
   
 ```
+
+### Advanced:
+
+Override `handle_group_message` to handle group message your way and
+`handle_private_message` to handle private message your way
