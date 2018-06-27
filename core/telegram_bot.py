@@ -7,7 +7,7 @@ from .message import Message
 
 class TelegramBot:
     """
-    Telegram Botself.
+    Telegram Bot.
 
     Arrributes:
     `bot`: A telepot bot.
