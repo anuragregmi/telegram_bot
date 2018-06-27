@@ -6,11 +6,15 @@ A simple Telegram Bot
 
 ### Methods:
   `handle_message`: Handles a chat message
+  
   `handle_private_message`: Handles private messages
+  
   `handle_group_message`: Handles group messages
 
 ### Usage:
+
 ```python
+
   # First of all create a telepot Bot.
   bot = telepot.Bot("TOKEN")
 
@@ -24,4 +28,5 @@ A simple Telegram Bot
 
   Override `handle_group_message` to handle group message your way and
   `handle_private_message` to handle private message your way
+  
 ```
